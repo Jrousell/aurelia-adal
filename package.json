@@ -59,7 +59,7 @@
     "main": "index",
     "format": "es2015",
     "directories": {
-      "dist": "dist/2015"
+      "dist": "dist/es2015"
     },
     "dependencies": {
       "adaljs": "github:AzureAd/azure-activedirectory-library-for-js@^1.0.8",
