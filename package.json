@@ -57,9 +57,9 @@
   },
   "jspm": {
     "main": "index",
-    "format": "amd",
+    "format": "es2015",
     "directories": {
-      "dist": "dist/amd"
+      "dist": "dist/2015"
     },
     "dependencies": {
       "adaljs": "github:AzureAd/azure-activedirectory-library-for-js@^1.0.8",
