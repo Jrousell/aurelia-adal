@@ -14,7 +14,7 @@
   },
   "license": "CC0-1.0",
   "author": "Martijn Hoebergen, Niels Vleming",
-  "main": "dist/commonjs/index.js",
+  "main": "dist/es2015/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MrTeyn/aurelia-adal.git"
