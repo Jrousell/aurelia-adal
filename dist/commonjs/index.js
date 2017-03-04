@@ -36,7 +36,6 @@ exports.configure = configure;
 var _adalInitializer = require('./adal-initializer');
 
 function configure(aurelia, config) {
-  aurelia.globalResources('./auth-filter');
 
   var adalInitializer = aurelia.container.get(_adalInitializer.AdalInitializer);
 

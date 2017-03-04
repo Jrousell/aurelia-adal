@@ -4,7 +4,7 @@ export {AuthService} from './auth-service'
 import {AdalInitializer} from './adal-initializer';
 
 export function configure(aurelia, config) {
-  aurelia.globalResources('./auth-filter');
+  //aurelia.globalResources('./auth-filter');
 
   let adalInitializer = aurelia.container.get(AdalInitializer);
 

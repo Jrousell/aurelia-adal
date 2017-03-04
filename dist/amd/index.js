@@ -25,7 +25,6 @@ define(['exports', './authorize-step', './authorize-interceptor', './auth-servic
   });
   exports.configure = configure;
   function configure(aurelia, config) {
-    aurelia.globalResources('./auth-filter');
 
     var adalInitializer = aurelia.container.get(_adalInitializer.AdalInitializer);
 

@@ -5,7 +5,6 @@ System.register(['./authorize-step', './authorize-interceptor', './auth-service'
 
   var AdalInitializer;
   function configure(aurelia, config) {
-    aurelia.globalResources('./auth-filter');
 
     var adalInitializer = aurelia.container.get(AdalInitializer);
 
