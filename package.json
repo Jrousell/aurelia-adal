@@ -1,6 +1,6 @@
 {
   "name": "aurelia-adal",
-  "version": "0.3.9",
+  "version": "0.3.11",
   "description": "Aurelia plugin for Azure AD authentication and authorization.",
   "keywords": [
     "aurelia",
@@ -8,12 +8,12 @@
     "authentication",
     "adal"
   ],
-  "homepage": "https://github.com/MrTeyn/aurelia-adal#readme",
+  "homepage": "https://github.com/Jrousell/aurelia-adal#readme",
   "bugs": {
-    "url": "https://github.com/MrTeyn/aurelia-adal/issues"
+    "url": "https://github.com/Jrousell/aurelia-adal/issues"
   },
   "license": "CC0-1.0",
-  "author": "Martijn Hoebergen, Niels Vleming",
+  "author": "",
   "main": "dist/commonjs/index.js",
   "repository": {
     "type": "git",
