@@ -56,7 +56,7 @@
     "yargs": "^2.1.1"
   },
   "jspm": {
-    "main": "dist/es2015/index",
+    "main": "dist/commonjs/index.js",
     "dependencies": {
       "adal-angular": "npm:adal-angular@^1.0.14",
       "aurelia-dependency-injection": "npm:aurelia-dependency-injection@^1.0.0-beta.1.2.0",
