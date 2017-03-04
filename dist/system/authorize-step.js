@@ -31,7 +31,7 @@ System.register(['aurelia-dependency-injection', 'aurelia-pal', 'aurelia-router'
           this.logger = Logging.getLogger('adal');
 
           this.authContext = authContext;
-          this.authContext.handleWindowCallback();
+          this.authContext.adal.handleWindowCallback();
         }
 
         AuthorizeStep.prototype.run = function run(routingContext, next) {

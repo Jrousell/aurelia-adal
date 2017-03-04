@@ -11,7 +11,7 @@ export class AuthorizeStep {
   
   constructor(authContext) {
     this.authContext = authContext;
-    this.authContext.handleWindowCallback();
+    this.authContext.adal.handleWindowCallback()
   }
 
   run(routingContext, next) {

@@ -30,7 +30,7 @@ var AuthorizeStep = exports.AuthorizeStep = (_dec = (0, _aureliaDependencyInject
     this.logger = Logging.getLogger('adal');
 
     this.authContext = authContext;
-    this.authContext.handleWindowCallback();
+    this.authContext.adal.handleWindowCallback();
   }
 
   AuthorizeStep.prototype.run = function run(routingContext, next) {
