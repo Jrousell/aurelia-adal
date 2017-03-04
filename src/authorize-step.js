@@ -72,7 +72,7 @@ export class AuthorizeStep {
 
       if (!this.authContext.user.isAuthenticated) {
         //if (routingContext.getAllInstructions().some(i => !!i.config.auth)) {
-        if (!!routingContext.config.auth) {
+        if (!!routingContext.config.settings.auth) {
           // Not logged in, redirect to login route
 
 
@@ -99,7 +99,7 @@ export class AuthorizeStep {
         }
       } else {
         // TODO: rethink login instruction matching?
-        if (!!routingContext.config.login) {
+        if (!!routingContext.config.settings.login) {
           // Logged in, current route is the login route
           this.logger.warn('user already logged in. redirecting...')
           let startPage = this.authContext.adal._getItem(this.authContext.adal.CONSTANTS.STORAGE.START_PAGE);

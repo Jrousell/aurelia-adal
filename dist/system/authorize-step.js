@@ -79,7 +79,7 @@ System.register(['aurelia-dependency-injection', 'aurelia-pal', 'aurelia-router'
           } else {
 
             if (!this.authContext.user.isAuthenticated) {
-              if (!!routingContext.config.auth) {
+              if (!!routingContext.config.settings.auth) {
 
                 if (this.authContext.adal.config && this.authContext.adal.config.localLoginUrl) {
                   return next.cancel(new Redirect(this.authContext.adal.config.localLoginUrl));
@@ -94,7 +94,7 @@ System.register(['aurelia-dependency-injection', 'aurelia-pal', 'aurelia-router'
                 }
               }
             } else {
-              if (!!routingContext.config.login) {
+              if (!!routingContext.config.settings.login) {
                 this.logger.warn('user already logged in. redirecting...');
                 var _startPage = this.authContext.adal._getItem(this.authContext.adal.CONSTANTS.STORAGE.START_PAGE);
 

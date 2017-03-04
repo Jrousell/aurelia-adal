@@ -78,7 +78,7 @@ var AuthorizeStep = exports.AuthorizeStep = (_dec = (0, _aureliaDependencyInject
     } else {
 
       if (!this.authContext.user.isAuthenticated) {
-        if (!!routingContext.config.auth) {
+        if (!!routingContext.config.settings.auth) {
 
           if (this.authContext.adal.config && this.authContext.adal.config.localLoginUrl) {
             return next.cancel(new _aureliaRouter.Redirect(this.authContext.adal.config.localLoginUrl));
@@ -93,7 +93,7 @@ var AuthorizeStep = exports.AuthorizeStep = (_dec = (0, _aureliaDependencyInject
           }
         }
       } else {
-        if (!!routingContext.config.login) {
+        if (!!routingContext.config.settings.login) {
           this.logger.warn('user already logged in. redirecting...');
           var _startPage = this.authContext.adal._getItem(this.authContext.adal.CONSTANTS.STORAGE.START_PAGE);
 
