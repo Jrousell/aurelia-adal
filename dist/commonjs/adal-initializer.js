@@ -15,9 +15,9 @@ var _aureliaLogging = require('aurelia-logging');
 
 var Logging = _interopRequireWildcard(_aureliaLogging);
 
-var _adaljs = require('adaljs');
+var _adalAngular = require('adal-angular');
 
-var Adal = _interopRequireWildcard(_adaljs);
+var Adal = _interopRequireWildcard(_adalAngular);
 
 var _authContext = require('./auth-context');
 

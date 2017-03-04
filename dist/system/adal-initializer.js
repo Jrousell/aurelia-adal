@@ -1,6 +1,8 @@
 'use strict';
 
-System.register(['aurelia-dependency-injection', 'aurelia-pal', 'aurelia-logging', 'adaljs', './auth-context'], function (_export, _context) {
+System.register(['aurelia-dependency-injection', 'aurelia-pal', 'aurelia-logging', 'adal-angular', './auth-context'], function (_export, _context) {
+  "use strict";
+
   var inject, PLATFORM, Logging, Adal, AuthContext, _dec, _class, AdalInitializer;
 
   function _classCallCheck(instance, Constructor) {
@@ -16,8 +18,8 @@ System.register(['aurelia-dependency-injection', 'aurelia-pal', 'aurelia-logging
       PLATFORM = _aureliaPal.PLATFORM;
     }, function (_aureliaLogging) {
       Logging = _aureliaLogging;
-    }, function (_adaljs) {
-      Adal = _adaljs;
+    }, function (_adalAngular) {
+      Adal = _adalAngular;
     }, function (_authContext) {
       AuthContext = _authContext.AuthContext;
     }],

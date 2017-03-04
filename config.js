@@ -7,7 +7,7 @@ System.config({
   },
 
   map: {
-    "adaljs": "github:AzureAd/azure-activedirectory-library-for-js@1.0.8",
+    "adal-angular": "github:AzureAd/azure-activedirectory-library-for-js@1.0.8",
     "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.0.0-beta.1.2.0",
     "aurelia-logging": "npm:aurelia-logging@1.0.0-beta.1.2.0",
     "aurelia-pal": "npm:aurelia-pal@1.0.0-beta.1.2.0",

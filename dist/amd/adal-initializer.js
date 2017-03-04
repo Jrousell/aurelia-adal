@@ -1,4 +1,4 @@
-define(['exports', 'aurelia-dependency-injection', 'aurelia-pal', 'aurelia-logging', 'adaljs', './auth-context'], function (exports, _aureliaDependencyInjection, _aureliaPal, _aureliaLogging, _adaljs, _authContext) {
+define(['exports', 'aurelia-dependency-injection', 'aurelia-pal', 'aurelia-logging', 'adal-angular', './auth-context'], function (exports, _aureliaDependencyInjection, _aureliaPal, _aureliaLogging, _adalAngular, _authContext) {
   'use strict';
 
   Object.defineProperty(exports, "__esModule", {
@@ -8,7 +8,7 @@ define(['exports', 'aurelia-dependency-injection', 'aurelia-pal', 'aurelia-loggi
 
   var Logging = _interopRequireWildcard(_aureliaLogging);
 
-  var Adal = _interopRequireWildcard(_adaljs);
+  var Adal = _interopRequireWildcard(_adalAngular);
 
   function _interopRequireWildcard(obj) {
     if (obj && obj.__esModule) {
