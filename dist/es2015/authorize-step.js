@@ -12,6 +12,7 @@ export let AuthorizeStep = (_dec = inject(AuthContext), _dec(_class = class Auth
     this.logger = Logging.getLogger('adal');
 
     this.authContext = authContext;
+    this.authContext.handleWindowCallback();
   }
 
   run(routingContext, next) {
